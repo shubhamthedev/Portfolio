@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900');
 /*-----Global-----*/
 *{
     margin: 0;
@@ -9,7 +10,7 @@
 }
 
 html{
-    font-family: 'Proxima Nova', Georgia, sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 body{
@@ -49,7 +50,6 @@ ul{
 li{
     color: white;
     font-size: 16px;
-    font-weight: 600;
     margin-bottom: 20px;
 }
 
@@ -80,7 +80,6 @@ header{
 header p{
     width: 45%;
     margin: 30px auto 0 auto;
-    font-size: 20px;
 }
 
 header p a{
@@ -138,7 +137,6 @@ footer{
 
 footer p{
     color: #404348;
-    font-weight: 600;
 }
 /*-----Responsive-----*/
 @media only screen and (max-width: 991px){
